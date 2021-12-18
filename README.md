@@ -9,7 +9,7 @@ https://github.com/srirajb3/project1/blob/main/diagrams/Elk_Diagram.png
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
 Playbook 1 : playbook.yml
----
+ ---
   - name: config web vm with docker
     hosts: webservers
     become: true
@@ -45,7 +45,7 @@ Playbook 1 : playbook.yml
         enabled: yes
 
 Playbook 2: install-elk.yml
----
+ ---
   - name: config elk with docker0
     hosts: elk
     become: true
@@ -88,7 +88,7 @@ Playbook 2: install-elk.yml
         enabled: yes
 
 Playbook 3 : filebeat-playbook.yml
----
+ ---
   - name: installing and launching filebeat
     hosts: webservers
     become: true
