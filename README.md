@@ -197,7 +197,7 @@ install-elk.yml is used to setup the ELK repository.
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-https://github.com/srirajb3/project1/blob/main/diagrams/Elk%20Docker%20PS%20image.PNG
+![diagram](https://github.com/srirajb3/project1/blob/main/diagrams/Elk%20Docker%20PS%20image.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
